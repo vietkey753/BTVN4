@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>baitap4</title>
+</head>
+<body>
+    <form>
+        <h2>Market Research Survey</h2>
+        <p>Please take a few moments to complete this satisfaction survey</p>
+        <label><strong> What is your age range?</strong></label><br>
+        <input type="text" name="age" id="age" list="Age" min="18" max="24"><br>
+        <label><strong> is your yearly income range?</strong></label><br>
+        <input type="text" name="$" id="$" list="$$" ><br>
+        <label><strong>Gender Identity</strong></label><br>
+        <input type="radio" name="sex" id="Male">
+        <label>Male</label><br>
+        <input type="radio" name="sex" id="Famale">
+        <label>Famale</label><br>
+        <input type="radio" name="sex" id="Nonbinary">
+        <label>Nonbinary</label><br>
+        <input type="radio" name="sex" id="Other">
+        <label>Other</label><br>
+        <textarea for="Other" rows="2" cols="30"></textarea><br>
+        <label><strong>Which of the following products have your purchased in the last 2 months. Please check all that apply</strong></label><br>
+        <input type="checkbox" name="P1" id="P1">
+        <label>Products 1</label><br>
+        <input type="checkbox" name="P2" id="P2">
+        <label>Products 2</label><br>
+        <input type="checkbox" name="P3" id="P3">
+        <label>Products 3</label><br>
+        <label><strong>How often would you use our new product?</strong></label><br>
+        <input type="radio" name="day" id="daily">
+        <label>Daily</label><br>
+        <input type="radio" name="day" id="Weekly">
+        <label>Weekly</label><br>
+        <input type="radio" name="day" id="Monthly">
+        <label>Monthly</label><br>
+        <label><strong>What would you pay for the new product?</strong></label><br>
+        $<textarea rows="1" cols="10" name="Dollar"></textarea>
+        .<textarea rows="1" cols="3" name="Cents" ></textarea><br>
+        <label><strong>What features would you like to see in the new product</strong></label><br>
+        <textarea rows="7" cols="100"></textarea>
+        <p>Please rate your level of agreement with the following statements </p>
+        <table border="2" width="500" height="200">
+            <thead>
+                <tr>
+                <th></th>
+                <th>Strongly Disagree</th>
+                <th>Disagree</th>
+                <th>Agree</th>
+                <th>Strongly Agree</th>
+            </tr>
+            </thead>
+            <body>
+                <tr>
+                    
+                    <th>Our products are priced fairly</th>
+                    <td><input type="radio" name="Q" id="Strongly Disagree"></td>
+                    <td><input type="radio" name="Q" id="Disagree"></td>
+                    <td><input type="radio" name="Q" id="Agree"></td>
+                    <td><input type="radio" name="Q" id="Strongly Agree"></td>
+                </tr>
+                <tr>
+                    <th>Our products are high quality</th>
+                    <td><input type="radio" name="W" id="Strongly Disagree1"></td>
+                    <td><input type="radio" name="W" id="Disagree1"></td>
+                    <td><input type="radio" name="W" id="Agree1"></td>
+                    <td><input type="radio" name="W" id="Strongly Agree1"></td>
+                </tr>
+                <tr>
+                    <th>You would recommend our product to a friend or cowoker.</th>
+                    <td><input type="radio" name="E" id="Strongly Disagree2"></td>
+                    <td><input type="radio" name="E" id="Disagree2"></td>
+                    <td><input type="radio" name="E" id="Agree2"></td>
+                    <td><input type="radio" name="E" id="Strongly Agree2"></td>
+                </tr>
+            </body>
+        </table>
+        <input type="submit" name="submit" id="submit" value="Submit">
+        <datalist id="$$">
+            <option value="$0-$25,000"></option>
+            <option value="$25,000-$30,000"></option>
+            <option value="$30,000-$35,000"></option>
+            <option value="$35,000-$40,000"></option>
+        </datalist>
+        <datalist id="Age">
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+        </datalist> 
+    </form>
+</body>
+</html>
